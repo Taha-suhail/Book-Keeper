@@ -48,3 +48,12 @@ body{
     border-radius: 5px;
     font-weight: bold;
   }
+
+  
+  @media only screen and (max-width: 768px) {
+    .container ul li{
+        list-style: none;
+        width: 100%; /* Set each card to occupy 33.33% of the container's width */
+        padding: 10px;
+    }
+  }

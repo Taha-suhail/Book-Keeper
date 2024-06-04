@@ -58,4 +58,11 @@ body{
     border-radius: 10px;
   }
 
-  
+ 
+  @media only screen and (max-width: 768px) {
+     li{
+        list-style: none;
+        width: 100%; /* Set each card to occupy 33.33% of the container's width */
+        padding: 10px;
+    }
+  }
